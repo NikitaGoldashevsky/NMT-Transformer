@@ -121,9 +121,9 @@ The Transformer model consists of:
 
 ## Results
 The model achieves reasonable translations for short English sentences, as shown in `Importing_Transformer.ipynb`. Example translations:
-- "The cat sits on the sofa." → "Кот сидень на диване."
 - "She loves to play soccer." → "Она любит играть в футбол."
 - "What is your favorite color?" → "Какой твой любимый цвет?"
+- "Can you help me with my homework?" → "Можешь помочь мне с домашним заданием?"
 
 To evaluate performance quantitatively, consider computing BLEU scores using a library like `sacrebleu`.
 
